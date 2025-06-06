@@ -29,4 +29,5 @@ This tool fetches MongoDB slow logs via SSH, parses both JSON and traditional te
 ├── pull.py     # 主程式 / Main script
 ├── host.list                # 主機清單 / Host list
 ├── .state/                  # Offset 儲存 / Offset state files
-└── es_fail.log              # 傳送失敗記錄 / Elasticsearch failures
+├── es_fail.log              # 傳送失敗記錄 / Elasticsearch failures
+└── requirements.txt
